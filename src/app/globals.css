@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background-color: #f2f8ff;
+  font-feature-settings: "kern";
+}
+
+body {
+  @apply bg-sky-50 text-slate-700 font-sans antialiased;
+}
+
+a {
+  @apply text-sky-600 hover:text-sky-700;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(79, 146, 227, 0.6);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.6);
+}
